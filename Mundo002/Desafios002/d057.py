@@ -5,7 +5,7 @@ a digitação novamente até ter um valor correto'''
 print(f'{" Desafio 057 ":=^30}')
 
 nome = str(input('Digite seu nome: '))
-sexo = str(input('Digite o seu sexo [M/F]: ')).upper()
+sexo = str(input('Digite o seu sexo [M/F]: ')).upper().strip()[0]
 while sexo != 'M' and sexo != 'F':
     sexo = str(input('Valor inválido! Digite novamente: ')).upper()
 
