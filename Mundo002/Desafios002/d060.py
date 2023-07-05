@@ -15,3 +15,6 @@ while c != 1:  # enquanto c for diferente de 1 o programa continua
     fat *= v  # 5 * 4 = 20 # 20 * 3 # 60 * 2 # 120 * 1
     print(f' x {v}', end='')  # x 4 # x 3# x 2# x 1
 print(f' = {fat}')  # = 120
+
+# multiplicação limpa = 1
+# soma limpa = 0
