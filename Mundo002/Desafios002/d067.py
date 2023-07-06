@@ -6,7 +6,7 @@ negativo.
 """
 
 print(f'{" Desafio 067 ":=^30}')
-
+print('Digite um número negativo para parar!')
 n = c = 0
 while True:
     n = int(input('Digite um número: '))
@@ -16,9 +16,7 @@ while True:
     if n < 0:
         break
     while c <= 10:
-        print(f'{n} x {c} = {n*c}')
+        print(f'{n} x {c} = {n * c}')
         c += 1
-
-
 
 print('Programa encerrado!')

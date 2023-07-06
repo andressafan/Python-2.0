@@ -11,7 +11,7 @@ print(f'{" Par ou Ímpar ":=^30}')
 import random
 
 
-v = s = 0
+v = 0
 
 while True:
     e = str(input('Você escolhe ímpar ou par [I/P]? ')).strip().upper()[0]
