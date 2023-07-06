@@ -26,6 +26,7 @@ while True:
 
     d = str(input('Deseja continuar[S/N]? ')).upper().strip()[0]
     if d != 'S':
+        print('Programa encerrado!')
         break
 
 print(f'''
