@@ -11,8 +11,14 @@ n = c = 0
 while True:
     n = int(input('Digite um número: '))
     c = 0
-    if n <= 0:
+    if n >= 0:
+        print(f'{f" Tabuada do {n} ":=^30}')
+    if n < 0:
         break
     while c <= 10:
         print(f'{n} x {c} = {n*c}')
         c += 1
+
+
+
+print('Programa encerrado!')
