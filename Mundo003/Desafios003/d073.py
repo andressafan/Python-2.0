@@ -46,3 +46,26 @@ print(f'{" Posição da Chapecoense ":=^30}')
 for i in range(0, len(c)):
     if c[i] == 'Chapecoense':
         print(f'Chapecoense está na posição: {i + 1}')
+
+# Como o Guanabara fez:
+
+
+print(f'{" Resolução do Guanabara ":*^30}')
+
+
+times = ('Vila Nova', 'Sport Recife', 'Criciúma', 'Novorizontino', 'EC Vitória',
+         'Mirassol', 'Juventude', 'Botafogo SP', 'Guarani', 'Atlético-GO',
+         'CRB', 'Ceará SC', 'Ituano', 'Ponte Preta', 'Sampaio Corrêa',
+         'Tombense', 'Chapecoense', 'Londrina', 'Avaí', 'ABC')
+
+
+print('-=' * 15)
+print(f'Lista de times do Brasileirão: {times}')
+print('-=' * 15)
+print(f'O 5 primeiros são {times[0:5]}')
+print('-=' * 15)
+print(f'Os 4 últimos são {times[-4:]}')
+print('-=' * 15)
+print(f'Times em ordem alfabética: {sorted(times)}')
+print('-=' * 15)
+print(f'O Chapecoense está na {times.index("Chapecoense")+1}° posição')
