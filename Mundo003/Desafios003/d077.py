@@ -22,3 +22,12 @@ for i in range(len(tupla)):
     if 'u' in tupla[i]:
         print(f' u', end='')
     print('\n')
+
+
+# Como o Guanabara fez:
+
+for p in tupla:
+    print(f'\nNa palavra {p} temos: ', end='')
+    for letra in p:
+        if letra in 'aeiou':
+            print(f'{letra}', end=' ')
