@@ -9,9 +9,40 @@ C) Uma lista com os times em ordem alfabética
 D) Em que posição na tabela esta o time da Chapecoense
 """
 
-c = ('Vila Nova', 'Sport Recife', 'Criciúma', 'Novorizontino', 'EC Vitória'
-     'Mirassol', 'Juventude', 'Botafogo SP', 'Guarani', 'Atlético-GO'
+c = ('Vila Nova', 'Sport Recife', 'Criciúma', 'Novorizontino', 'EC Vitória',
+     'Mirassol', 'Juventude', 'Botafogo SP', 'Guarani', 'Atlético-GO',
      'CRB', 'Ceará SC', 'Ituano', 'Ponte Preta', 'Sampaio Corrêa',
      'Tombense', 'Chapecoense', 'Londrina', 'Avaí', 'ABC')
 
 print(f'{" Desafio 073 ":=^30}')
+print(f'{" 5 primeiros colocados ":=^30}')
+for pos, c in enumerate(c):
+    if pos < 5:
+        print(f'{c}' + f'{"." * 10}' + f'{pos + 1}° lugar')
+    else:
+        break
+
+c = ('Vila Nova', 'Sport Recife', 'Criciúma', 'Novorizontino', 'EC Vitória',
+     'Mirassol', 'Juventude', 'Botafogo SP', 'Guarani', 'Atlético-GO',
+     'CRB', 'Ceará SC', 'Ituano', 'Ponte Preta', 'Sampaio Corrêa',
+     'Tombense', 'Chapecoense', 'Londrina', 'Avaí', 'ABC')
+
+print(f'{" 4 últimos colocados ":=^30}')
+for cont in range(len(c) - 4, len(c)):  # começa no elemento - 4 e vai ate o comprimento da tupla
+    print(f'{c[cont]}' + f'{"" :.^10}' + f'{cont + 1}° lugar')
+
+print(f'{" Ordenado Afabeticamente ":=^30}')
+c = sorted(c)
+for i in range(0, len(c)):
+    print(c[i])
+
+c = ('Vila Nova', 'Sport Recife', 'Criciúma', 'Novorizontino', 'EC Vitória',
+     'Mirassol', 'Juventude', 'Botafogo SP', 'Guarani', 'Atlético-GO',
+     'CRB', 'Ceará SC', 'Ituano', 'Ponte Preta', 'Sampaio Corrêa',
+     'Tombense', 'Chapecoense', 'Londrina', 'Avaí', 'ABC')
+
+print(f'{" Posição da Chapecoense ":=^30}')
+
+for i in range(0, len(c)):
+    if c[i] == 'Chapecoense':
+        print(f'Chapecoense está na posição: {i + 1}')
