@@ -16,7 +16,7 @@ tupla = ('Lápis', 1.75, 'Caneta', 2.00, 'Estojo', 25.00, 'Caderno'
          , 'Régua', 5.00)
 print(f'{" Tabela de Preços ":=^35}')
 
-for i in range(0, len(tupla), 2):
+for i in range(0, len(tupla), 2):  # percorre do índice 0 até o fim da tuplas, pulando de 2 em dois
     nome = tupla[i]
     preco = tupla[i+1]
     print(f"{f'{nome:-<15}' + '-' * 10 + f'R$ {preco:<4.2f}':^35}")
