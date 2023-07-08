@@ -28,10 +28,36 @@ print('Note que só é removida a primeira ocorrência do 3')
 
 print('-' * 45)
 
-valores = []
+valores = list()
 valores.append(5)
 valores.append(9)
 valores.append(4)
 print(valores)
 for c, v in enumerate(valores):
     print(f'{v} na posição {c}')
+
+print('-' * 45)
+
+insert = list()
+for cont in range(0, 5):
+    insert.append(int(input('Digite um valor: ')))
+print(insert)
+
+print('-' * 45)
+
+a = [2, 4, 5, 7, 8]
+b = a  # ---> (b recebe a) associação de listas caso você mude um valor em uma
+# a outra também vai mudar junto
+b[2] = 8
+print(f'Lista {a}')
+print(f'Lista {b}')
+
+print('-' * 45)
+
+a = [2, 4, 5, 7, 8]
+b = a[:]  # (b recebe todos os itens de a)
+# nesse caso b será uma cópia de a
+# mudando um elemento de b não implicará em a
+b[2] = 8
+print(f'Lista {a}')
+print(f'Lista {b}')
