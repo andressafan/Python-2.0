@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a338764-af1d-4dae-afe2-19661ae0c219" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Mundo003/Desafios003/d081.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mundo003/Desafios003/d082.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mundo003/Desafios003/d083.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mundo003/Desafios003/d078.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mundo003/Desafios003/d078.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mundo003/Desafios003/d079.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mundo003/Desafios003/d079.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mundo003/Desafios003/d080.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mundo003/Desafios003/d080.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +47,7 @@
       <recent name="C:\Users\andre\Documents\GitHub\Python-2.0\Mundo003" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.d078">
+  <component name="RunManager" selected="Python.d080">
     <configuration name="d078" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-2.0" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.d080" />
         <item itemvalue="Python.d078" />
         <item itemvalue="Python.d083" />
         <item itemvalue="Python.d082" />
         <item itemvalue="Python.d081" />
-        <item itemvalue="Python.d080" />
       </list>
     </recent_temporary>
   </component>

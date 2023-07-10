@@ -26,7 +26,6 @@ maior: {maior}
 menor: {menor}
 """)
 
-print('=' * 50)
 
 for v in range(0, len(lista)):  # esse laço percorre o tamanho da lista
     # v == 0
@@ -42,3 +41,29 @@ for v in range(0, len(lista)):  # esse laço percorre o tamanho da lista
             print('Repetições: ')
             print(f'O valor {comp} aparece na posição {v + 1} e na posição {i + 1}')
 
+print('=' * 50)
+print('Como o Guanabara resolveu: ')
+
+listanum = []
+mai = 0
+men = 0
+for c in range(0, 5):
+    listanum.append(int(input(f'Digite um valor para a posição {c}: ')))
+    if c == 0:
+        mai = men = listanum[c]
+    else:
+        if listanum[c] > mai:
+            mai = listanum[c]
+        if listanum[c] < men:
+            men = listanum[c]
+print('=' * 50)
+print(f'Você digitou os valores {listanum}')
+print(f'O maior valor digitado foi: {mai} nas posições ', end='')
+for i, v in enumerate(listanum):
+    if v == mai:
+        print(f'{i}...', end='')
+print()
+print(f'O menor valor digitado foi: {men} nas posições ', end='')
+for i, v in enumerate(listanum):
+    if v == men:
+        print(f'{i}...', end='')
