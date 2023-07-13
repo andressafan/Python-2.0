@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a338764-af1d-4dae-afe2-19661ae0c219" name="Changes" comment="" />
+    <list default="true" id="4a338764-af1d-4dae-afe2-19661ae0c219" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Mundo003/Prática18.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mundo003/Teoria18.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,8 +46,8 @@
       <recent name="C:\Users\andre\Documents\GitHub\Python-2.0\Mundo003" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.d083">
-    <configuration name="d078" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Prática18">
+    <configuration name="Prática18" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-2.0" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -51,11 +55,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mundo003/Desafios003" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mundo003" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mundo003/Desafios003/d078.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mundo003/Prática18.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Prática18" />
         <item itemvalue="Python.d083" />
         <item itemvalue="Python.d082" />
         <item itemvalue="Python.d081" />
         <item itemvalue="Python.d080" />
-        <item itemvalue="Python.d078" />
       </list>
     </recent_temporary>
   </component>
