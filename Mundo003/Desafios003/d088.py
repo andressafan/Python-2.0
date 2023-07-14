@@ -12,7 +12,9 @@ print(f'{" M E G A  S E N A ":=^50}')
 q = int(input('Quantos jogos você quer sortear? '))
 for i in range(q):
     for num in range(6):
-        lista.append(randint(1, 60))
+        numero = (randint(1, 60))
+        if num not in lista:
+            lista.append(numero)
     lista.sort()
     sleep(1)
     print(f'Jogo {i + 1}: {lista}')
