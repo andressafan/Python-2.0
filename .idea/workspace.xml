@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a338764-af1d-4dae-afe2-19661ae0c219" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Mundo003/Teoria20.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mundo003/Prática20.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mundo003/Prática20.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mundo003/Teoria20.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mundo003/Teoria20.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +46,8 @@
       <recent name="C:\Users\andre\Documents\GitHub\Python-2.0\Mundo003" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.d095">
-    <configuration name="d091" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Prática20">
+    <configuration name="Prática20" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-2.0" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -54,11 +55,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mundo003/Desafios003" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mundo003" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mundo003/Desafios003/d091.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mundo003/Prática20.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Prática20" />
         <item itemvalue="Python.d095" />
         <item itemvalue="Python.d094" />
         <item itemvalue="Python.d093" />
         <item itemvalue="Python.d092" />
-        <item itemvalue="Python.d091" />
       </list>
     </recent_temporary>
   </component>

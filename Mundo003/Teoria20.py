@@ -40,8 +40,22 @@
 
 # mensagem('Sistema de Alunos') --> chama a função e passa o parâmetro
 
- 
+# Empacotamento de Parâmetros:
+
+# def contador(*núm): ---> * = recebe vários parâmetros
 
 
+# contador(5, 7, 3, 4)
+# contador(8, 9, 7)
 
+# Trabalhando com Listas:
 
+# def dobra(lst):
+#   pos = 0
+#   while pos < len(lst):
+#       lst[pos] *= 2
+#       pos += 1
+
+# valores = [7,2,5,0,4]
+# dobra(valores)
+# print(valores)
