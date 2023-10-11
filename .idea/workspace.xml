@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a338764-af1d-4dae-afe2-19661ae0c219" name="Changes" comment="" />
+    <list default="true" id="4a338764-af1d-4dae-afe2-19661ae0c219" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Mundo003/Teoria21.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +45,7 @@
       <recent name="C:\Users\andre\Documents\GitHub\Python-2.0\Mundo003" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.d100">
+  <component name="RunManager" selected="Python.d098">
     <configuration name="d096" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-2.0" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -150,9 +153,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.d098" />
         <item itemvalue="Python.d100" />
         <item itemvalue="Python.d099" />
-        <item itemvalue="Python.d098" />
         <item itemvalue="Python.d097" />
         <item itemvalue="Python.d096" />
       </list>
